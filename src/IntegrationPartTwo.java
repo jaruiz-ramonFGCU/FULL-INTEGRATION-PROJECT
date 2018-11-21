@@ -175,7 +175,7 @@ public class IntegrationPartTwo {
     for (int i=0; i<a.length; i++) {
       for (int j=0; j<a[i].length; j++){
         if(a[i][j] == k)
-          System.out.printf(a[i][j] + " (%d,%d)" , i, j);
+          System.out.printf(a[i][j] + " (%d,%d) \n" , i, j);
       }
     }
   }

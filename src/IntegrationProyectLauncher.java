@@ -1,6 +1,6 @@
 /*
  * Created by: Jose Ruiz-Ramon
- * REV 1.0
+ * REV 1.1
  * This program is a launcher that will
  * launch the required instructions of
  * the whole integration project.

@@ -1,3 +1,9 @@
+/*
+ * Created by: Jose Ruiz-Ramon
+ * REV 1.1
+ * This program is the part 2.
+ */
+
 import java.util.ArrayList;
 import java.util.List;
 import javax.swing.text.html.HTMLDocument.Iterator;
@@ -77,13 +83,13 @@ public class IntegrationPartTwo {
     System.out.println(" from calling the void method printName() \n");
  
     
-    firstName = "Nickolas";
-    SeparateFileClass myNameNick = new SeparateFileClass(firstName); // calling overloaded constructor
-    myNameNick.printName();
+    firstName = "Papi";
+    SeparateFileClass myNamePapi = new SeparateFileClass(firstName); // calling overloaded constructor
+    myNamePapi.printName();
     System.out.println(" from calling the void method printName() \n");
     
-    myNameNick.setLastName("Gadomski");
-    myNameNick.printName();
+    myNamePapi.setLastName("James");
+    myNamePapi.printName();
     
     SeparateFileClass myNameNull = new SeparateFileClass();
     System.out.println(myNameNull.getFirstName()); // calling no args constructor
